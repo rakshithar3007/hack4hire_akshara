@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "invoiceguard-app",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "cd /d C:\\Users\\sinch\\hack4hire\\hack4hire\\invoiceguard-ai && set INVOICEGUARD_API_PORT=8000&& python -m streamlit run app\\streamlit_app.py --server.port 8501 --server.headless true"],
+      "port": 8501
+    }
+  ]
+}
